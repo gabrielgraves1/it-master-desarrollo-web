@@ -1,1 +1,68 @@
-ECHO est  activado.
+<style type="text/css">
+
+div {background-color: blueviolet;
+    /*margin:12px;*/
+    }
+body {
+    font-family: 'New Tegomin', serif;}
+#first-nav {text-align: right;
+            margin: 12px;
+}
+#second-nav {padding: 12px;
+}
+#second-nav
+        {background-color: white;}
+#second-nav img {height: 60px;}
+#banner {text-align: center;
+        padding: 45px;
+        background-image: url(http://placeimg.com/1000/300/nature);        
+        color:white
+}
+#banner h1,
+#banner button {
+    margin:12px
+    }
+#banner button
+{
+    border: 3px dotted black; 
+    padding: 24px 48px;
+    background-color: teal;
+    border-radius: 30px;}
+
+#banner h1 {
+    font-size:72px
+}
+#items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 48px;
+    }
+#items div {
+    width: 18%;
+    display:flex;
+    padding: 48px;
+    border: 2px solid gray;
+    margin:12px auto;
+}
+#items div img {width: 100%;}
+#items div p {
+    margin: 15px;    
+    line-height: 50px;
+    display: block;   
+}
+.negrita {font-weight: bolder;}
+.tachado {text-decoration: line-through;}
+.precio-final {font-size: 25px;}
+.descuento {color:forestgreen;}
+.tachado,
+.precio-final,
+.descuento {display: block;}
+.paginacion {
+    background:burlywood;
+    padding: 12px 24px;
+    text-align: center;
+    border: none;
+
+}
+</style>
